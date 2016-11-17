@@ -26,6 +26,7 @@
     * `unity-tweak-tool`
     * `gnome-tweak-tool`
     * `numix-gtk-theme numix-icon-theme-circle` (`ppa:numix/ppa`)
+        - Delete `~/.local/share/icons/x-terminal-emulator.png` if terminator has the old icon in Unity launcher.
 5. Install other browsers
     * google-chrome (and set up <u>duckduckgo</u> on it!)
 6. Install `flashplugin-installer`

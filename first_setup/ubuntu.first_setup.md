@@ -66,3 +66,4 @@
 31. Install `parallel` 
 32. Install `bwa` 
 33. Import `.bashrc`, `.bash_aliases` and `.bash_profile`
+34. Install `sqlite3`

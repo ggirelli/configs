@@ -67,3 +67,4 @@
 32. Install `bwa` 
 33. Import `.bashrc`, `.bash_aliases` and `.bash_profile`
 34. Install `sqlite3`
+35. Set `pageDown` and `pageUp` for history-based command autocompletion by editing file `/etc/inputrc` and un-commenting the related lines.

@@ -68,3 +68,4 @@
 33. Import `.bashrc`, `.bash_aliases` and `.bash_profile`
 34. Install `sqlite3`
 35. Set `pageDown` and `pageUp` for history-based command autocompletion by editing file `/etc/inputrc` and un-commenting the related lines.
+36. Update swap by creating a new swapfile of X MB with the following commands (require sudo): `swapoff -a; dd if=/dev/zero of=/swapfile bs=1M count=X; chmod 0600 /swapfile; mkswap /swapfile; swapon /swapfile`

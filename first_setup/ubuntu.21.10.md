@@ -38,7 +38,7 @@ echo "/dev/zvol/rpool/swap none swap discard 0 0" | sudo tee -a /etc/fstab
    (or `bashtop` with temperature option turned on).
 
 - Format internal drives (Ext4) using the `Disks` application,  
-   then add them to `sudo nano /etc/fstab` and mount them with `sudo mount -a`. 
+   then add them to `sudo nano /etc/fstab` and mount them with `sudo mount -a`.
 
 - Add external network drives to `sudo nano /etc/fstab`, and then mount them with `sudo mount -a`.
 

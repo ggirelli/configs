@@ -12,7 +12,7 @@ sudo apt autoremove
 ```
 sudo apt install terminator htop bashtop numix-gtk-theme numix-icon-theme \
                  numix-icon-theme-circle gnome-tweaks screen git inkscape \
-                 net-tools stress lm-sensors cifs-utils alien lyx zsh
+                 net-tools stress lm-sensors cifs-utils alien lyx zsh gimp
 ```
 
 3. Open the `teaks` application and, under "Appearance", select the "Numix" theme and "Numix-circle" icons. The turn manually on the theme's dark mode by changing to `1` the relative value in:

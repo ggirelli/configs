@@ -10,7 +10,7 @@ sudo apt autoremove
 2. Install some key utilities.
 
 ```
-sudo apt install terminator htop bashtop numix-gtk-theme numix-icon-theme numix-icon-theme-circle gnome-tweaks screen git inkscape net-tools stress lm-sensors cifs-utils alien lyx
+sudo apt install terminator htop bashtop numix-gtk-theme numix-icon-theme numix-icon-theme-circle gnome-tweaks screen git inkscape net-tools stress lm-sensors cifs-utils alien lyx zsh
 ```
 
 3. Open the `teaks` application and, under "Appearance", select the "Numix" theme and "Numix-circle" icons. The turn manually on the theme's dark mode by changing to `1` the relative value in:
@@ -46,4 +46,21 @@ echo "/dev/zvol/rpool/swap none swap discard 0 0" | sudo tee -a /etc/fstab
 
 9. Install `brew`: https://brew.sh/https://brew.sh/
 
-10. Install GitHub Client: `brew install gh`
+10. Install GitHub Client: `brew install gh` (https://github.com/cli/cli#installation)
+
+11. Install OhMyZsh: https://ohmyz.sh/#install
+    - Add `powerlevel10k` theme: https://github.com/romkatv/powerlevel10k
+
+11. Install `bat`: `sudo apt install bat` (https://github.com/sharkdp/bat#installation)
+    Then add the alias to `.zprofile`: `echo "alias bat=batcat" | tee -a ~/.zprofile`
+
+12. Install `fd` (https://github.com/sharkdp/fd#installation)
+
+```
+sudo apt install fd-find
+mkdir -p ~/.local/bin
+ln -s $(which fdfind) ~/.local/bin/fd
+echo "PATH=~/.local/bin:$PATH" | tee -a ~/.zprofile
+```
+
+13. Install `hyperfine`: https://github.com/sharkdp/hyperfine/releases

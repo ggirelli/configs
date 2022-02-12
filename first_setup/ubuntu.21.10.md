@@ -10,7 +10,7 @@ sudo apt autoremove
 2. Install some key utilities.
 
 ```
-sudo apt install terminator htop numix-gtk-theme numix-icon-theme numix-icon-theme-circle gnome-tweaks screen git inkscape
+sudo apt install terminator htop bashtop numix-gtk-theme numix-icon-theme numix-icon-theme-circle gnome-tweaks screen git inkscape net-tools stress lm-sensors cifs-utils alien
 ```
 
 3. Open the `teaks` application and, under "Appearance", select the "Numix" theme and "Numix-circle" icons. The turn manually on the theme's dark mode by changing to `1` the relative value in:
@@ -27,3 +27,12 @@ sudo mkswap -f /dev/zvol/rpool/swap
 sudo swapon /dev/zvol/rpool/swap
 echo "/dev/zvol/rpool/swap none swap discard 0 0" | sudo tee -a /etc/fstab
 ```
+
+5. If new build, check temperature behaviours with `stress` and `sensors` (or `bashtop` with temperature option turned on).
+
+6. Format internal drives (Ext4) using the `Disks` application, then add them to `sudo nano /etc/fstab` and mount them with `sudo mount -a`. 
+
+7. Add external network drives to `sudo nano /etc/fstab`, and then mount them with `sudo mount -a`.
+
+8. Install third party softwares
+    - Dropbox: https://www.dropbox.com/install

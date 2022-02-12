@@ -97,7 +97,14 @@ git config --global user.email "gigi.ga90@gmail.com"
 git config --global user.name "Gabriele Girelli"
 ```
 
-- Sign your commits: [generating a new GPG key](https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key)
+- Sign your commits.
+  - [Generating a new GPG key](https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key).
+  - [Telling git about your signing key](https://docs.github.com/en/authentication/managing-commit-signature-verification/telling-git-about-your-signing-key).
+
+```bash
+if [ -r ~/.zprofile ]; then echo 'export GPG_TTY=$(tty)' >> ~/.zprofile; \
+  else echo 'export GPG_TTY=$(tty)' >> ~/.profile; fi
+```
 
 ## Python setup
 

@@ -76,3 +76,5 @@ echo "PATH=~/.local/bin:$PATH" | tee -a ~/.zprofile
 ```
 sudo apt install nvidia-prime
 ```
+
+Open `Software updates` and select the latest __proprietary__ drivers (if possible, choose a __tested__ option). You might need to enroll a new MOK, follow the automatic procedure if needed.

@@ -71,6 +71,10 @@ echo "PATH=~/.local/bin:$PATH" | tee -a ~/.zprofile
 
 13. Install `hyperfine`: https://github.com/sharkdp/hyperfine/releases
 
+14. Install `appimagelauncher`: https://github.com/TheAssassin/AppImageLauncher/wiki/Install-on-Ubuntu-or-Debian
+
+15. Install Steam games.
+
 ## NVIDIA cards
 
 ```
@@ -78,3 +82,44 @@ sudo apt install nvidia-prime
 ```
 
 Open `Software updates` and select the latest __proprietary__ drivers (if possible, choose a __tested__ option). You might need to enroll a new MOK, follow the automatic procedure if needed.
+
+## GitHub setup
+
+* Create a new authentication token: https://github.com/settings/tokens
+    - The minimum required scopes are 'repo', 'read:org', 'admin:public_key'.
+* Authenticate with `gh auth login`.
+
+## Python setup
+
+
+* Install basic workflow packages.
+
+```
+sudo apt-get install python3 python3-venv python3-pip
+curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -
+python3 -m pip install --user pipx
+python3 -m pipx ensurepath
+```
+
+* Install Miniconda: https://docs.conda.io/en/latest/miniconda.html#linux-installers
+    - Remember to disable automatic conda `base` activation.
+    - Update conda with `conda update -n base -c defaults conda`.
+
+* Install jupyter-lab in a reserved environment.
+
+```
+conda create -n jupyter-lab
+conda activate jupyter-lab
+conda install pip
+pip install jupyterlab
+```
+
+* Change JupyterLab theme via GUI.
+
+## R setup
+
+*Coming soon*.
+
+## Jekyll setup
+
+*Coming soon*.

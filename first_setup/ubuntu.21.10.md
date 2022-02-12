@@ -70,3 +70,9 @@ echo "PATH=~/.local/bin:$PATH" | tee -a ~/.zprofile
 ```
 
 13. Install `hyperfine`: https://github.com/sharkdp/hyperfine/releases
+
+## NVIDIA cards
+
+```
+sudo apt install nvidia-prime
+```

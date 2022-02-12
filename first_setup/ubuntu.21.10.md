@@ -90,6 +90,14 @@ Open `Software updates` and select the latest __proprietary__ drivers (if possib
 - Create a new authentication token: [GitHub dev settings](https://github.com/settings/tokens)
   - The minimum required scopes are 'repo', 'read:org', 'admin:public_key'.
 - Authenticate with `gh auth login`.
+- Setup global user.
+
+```bash
+git config --global user.email "gigi.ga90@gmail.com"
+git config --global user.name "Gabriele Girelli"
+```
+
+- Sign your commits: [generating a new GPG key](https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key)
 
 ## Python setup
 

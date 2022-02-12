@@ -77,7 +77,7 @@ echo "PATH=~/.local/bin:$PATH" | tee -a ~/.zprofile
 
 - Install Steam games.
 
-## NVIDIA cards
+## NVIDIA drivers
 
 ```bash
 sudo apt install nvidia-prime

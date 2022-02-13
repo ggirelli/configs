@@ -1,26 +1,18 @@
 #!/usr/bin/env bash
 
 # ------------------------------------------------------------------------------
-# 
 # Author: ...
 # Email: ...
 # Version: X.X.X
 # Date: YYYYMMDD
 # Project: ...
 # Description: ...
-# 
 # ------------------------------------------------------------------------------
 
 
 
-# ENV VAR ======================================================================
-
 export LC_ALL=C
 
-# PARAMS =======================================================================
-
-
-# Help string
 helps="
 usage: ./script.sh [-h] -i input [-d default][-f]
 
@@ -36,29 +28,27 @@ usage: ./script.sh [-h] -i input [-d default][-f]
   -d default	Param with default value. Default: 10
 "
 
-# Default values
 default=10
 flag=false
 
-# Parse options
 while getopts hfi:d: opt; do
 	case $opt in
 		h)
-			# Help page
 			echo -e "$helps"
 			exit 0
 		;;
 		f)
-			# Flag
 			flag=true
 		;;
 		i)
-			# Input
 			input=$OPTARG
 		;;
 		d)
-			# Default
 			default=$OPTARG
+		;;
+		*)
+			echo "Unrecognized flag: $OPTARG"
+			exit 1
 		;;
 	esac
 done
@@ -74,6 +64,7 @@ fi
 
 # RUN ==========================================================================
 
-# END ==========================================================================
+echo "$flag"
+echo "$default"
 
 ################################################################################

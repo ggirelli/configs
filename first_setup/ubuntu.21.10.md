@@ -52,7 +52,7 @@ echo "/dev/zvol/rpool/swap none swap discard 0 0" | sudo tee -a /etc/fstab
   - VSC: [installation page](https://code.visualstudio.com/)
   - Zoom: [installation page](https://zoom.us/download#client_4meeting)
 
-- Install `brew`: [brew homepage](https://brew.sh/https://brew.sh/)
+- Install `brew`: [brew homepage](https://brew.sh)
 
 - Install GitHub Client: `brew install gh` ([installation page](https://github.com/cli/cli#installation))
 

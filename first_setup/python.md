@@ -24,3 +24,5 @@ pip install jupyterlab
 ```
 
 - [ ] Change JupyterLab theme via GUI.
+
+- [ ] Install `poetry` by running their [one-line installer](https://python-poetry.org/docs/#osx--linux--bashonwindows-install-instructions).

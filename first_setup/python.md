@@ -4,7 +4,6 @@
 
 ``` bash
 sudo apt-get install python3 python3-venv python3-pip
-curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -
 python3 -m pip install --user pipx
 python3 -m pipx ensurepath
 pip install black pytest vulture mypy pre-commit

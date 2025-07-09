@@ -9,3 +9,4 @@ Here I included some checklists for Ubuntu first setups on new systems/builds:
 2. [Git and GitHub](github.md)
 3. [R](r.md)
 4. [Python](python.md)
+5. [Rust](rust.md)

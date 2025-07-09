@@ -2,4 +2,4 @@
 
 Config files and procedures.
 
-- Checklist for Ubuntu first setup: [here](first_setup).
+- [Checklist for Ubuntu first setup](first_setup).

@@ -1,10 +1,8 @@
--- Pull in the wezterm API
 local wezterm = require 'wezterm'
-
--- This will hold the configuration.
 local config = wezterm.config_builder()
 
 -- This is where you actually apply your config choices.
+config.leader = { key = 'a', mods = 'CTRL' }
 config.keys = {
     {
         key = 'O',
@@ -15,6 +13,26 @@ config.keys = {
         key = 'E',
         mods = 'CTRL|SHIFT',
         action = wezterm.action.SplitHorizontal { domain = 'CurrentPaneDomain' },
+    },
+    {
+        key = 'LeftArrow',
+        mods = 'CTRL',
+        action = wezterm.action.AdjustPaneSize { 'Left', 1 }
+    },
+    {
+        key = 'DownArrow',
+        mods = 'CTRL',
+        action = wezterm.action.AdjustPaneSize { 'Down', 1 }
+    },
+    {
+        key = 'UpArrow',
+        mods = 'CTRL',
+        action = wezterm.action.AdjustPaneSize { 'Up', 1 }
+    },
+    {
+        key = 'RightArrow',
+        mods = 'CTRL',
+        action = wezterm.action.AdjustPaneSize { 'Right', 1 }
     },
 }
 

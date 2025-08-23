@@ -8,9 +8,6 @@ sudo apt remove ruby
 # Install rbenv
 brew install rbenv
 
-# Initialize it and add it to your shell profile
-rbenv init
-
 # !!! NOTE: The following line depends on your shell, I use zsh
 # The rbenv init should give you the proper text to append to your shell profile file
 echo 'eval "$(rbenv init - zsh)"' | tee -a ~/.zshrc

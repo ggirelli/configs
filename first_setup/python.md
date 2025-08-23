@@ -1,27 +1,32 @@
 # Python setup
 
-- [ ] Install basic workflow packages.
+## `uv`
 
-``` bash
-sudo apt-get install python3 python3-venv python3-pip
-python3 -m pip install --user pipx
-python3 -m pipx ensurepath
-pip install black pytest vulture mypy pre-commit
-```
+- [ ] Install `uv`: [installation page](https://docs.astral.sh/uv/getting-started/installation/)
 
-- [ ] Install Miniconda: [installation page](https://docs.conda.io/en/latest/miniconda.html#linux-installers)
-  - [ ] Remember to disable automatic conda `base` activation.
-  - [ ] Update conda with `conda update -n base -c defaults conda`.
+## Mamba
 
-- [ ] Install jupyter-lab in a reserved environment.
+- [ ] Install `miniforge`: [installation page](https://github.com/conda-forge/miniforge?tab=readme-ov-file#unix-like-platforms-macos-linux--wsl)
 
 ```bash
-conda create -n jupyter-lab
-conda activate jupyter-lab
-conda install pip
-pip install jupyterlab
+# Disable auto activation of base environment.
+conda config --set auto_activate_base false
 ```
 
-- [ ] Change JupyterLab theme via GUI.
+## Jupyter-lab
 
-- [ ] Install `poetry` by running their [one-line installer](https://python-poetry.org/docs/#osx--linux--bashonwindows-install-instructions).
+- [ ] Setup an environment with jupyter-lab.
+
+```bash
+mamba create -n jupyter-lab
+mamba activate jupyter-lab
+mamba install jupyterlab
+
+# Test installation with
+jupyter-lab
+```
+
+Once in `jupyter-lab`:
+
+- [ ] Switch theme to dark.
+- [ ] Enable autocompletions.

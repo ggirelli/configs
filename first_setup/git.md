@@ -10,4 +10,5 @@ git config --global user.name "Gabriele Girelli"
 # page: https://github.com/settings/emails
 git config --global user.email "<email>"
 ```
+
 - [ ] Setup commit signing with SSH via 1Password.

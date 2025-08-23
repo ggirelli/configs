@@ -1,6 +1,10 @@
 # Ruby
 
 ```bash
+# Requirements
+sudo apt install zlib1g-dev
+sudo apt remove ruby
+
 # Install rbenv
 brew install rbenv
 
@@ -21,12 +25,15 @@ curl -fsSL https://github.com/rbenv/rbenv-installer/raw/main/bin/rbenv-doctor | 
 # to avoid issues with gems management
 RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@3)" \
   rbenv install 3.4.5
+
+rbenv global 3.4.5
 ```
 
 ## Jekyll
 
 ```bash
 gem install bundler jekyll
+# Update gems if the program warns you a new version is available.
 ```
 
 To run Jekyll in a folder, the first time you should run `bundle install`. Then, running jekyll just takes:

@@ -1,6 +1,8 @@
-# GitHub
+# Code forges
 
-## Login to GitHub
+## GitHub
+
+### Login to GitHub
 
 > Assumes using 1Password and 1Password CLI (`op`), and having GitHub CLI (`gh`) installed.
 
@@ -11,7 +13,7 @@
 
 - [ ] Setup GitHub CLI to authenticate via 1Password following [this guide](https://developer.1password.com/docs/cli/shell-plugins/github/).
 
-## Sign commits
+### Sign commits
 
 > Assumes using 1Password and 1Password CLI (`op`), and having GitHub CLI (`gh`) installed.
 
@@ -20,3 +22,7 @@
   - [ ] Store it in 1Password.
 
 - [ ] Setup signing git commits following [this guide](https://developer.1password.com/docs/ssh/git-commit-signing/).
+
+## Radicle
+
+- [ ] Install `radicle`: [homepage](https://radicle.xyz/)

@@ -6,7 +6,7 @@ title: "First setup: python"
 
 - [ ] Install `uv`: [installation page](https://docs.astral.sh/uv/getting-started/installation/)
 
-## Mamba
+## `mamba`
 
 - [ ] Install `miniforge`: [installation page](https://github.com/conda-forge/miniforge?tab=readme-ov-file#unix-like-platforms-macos-linux--wsl)
 
@@ -15,7 +15,7 @@ title: "First setup: python"
 conda config --set auto_activate_base false
 ```
 
-## Jupyter-lab
+## `jupyter-lab`
 
 - [ ] Setup an environment with jupyter-lab.
 

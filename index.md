@@ -2,7 +2,9 @@
 title: "First setup: Linux"
 ---
 
-Here I included some checklists for Ubuntu first setups on new systems/builds:
+Over time, I have been trying to document how I setup my Linux machines.
+You will find some config file examples and instructions on how to fix any bugs
+I encountered on the way.
 
 1. Ubuntu
    - [[First setup: Ubuntu 21.10|Ubuntu 21.10]]

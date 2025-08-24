@@ -1,4 +1,6 @@
-# Python setup
+---
+title: "First setup: python"
+---
 
 ## `uv`
 

@@ -1,4 +1,6 @@
-# Git
+---
+title: "First setup: git"
+---
 
 - [ ] Setup global user.
 

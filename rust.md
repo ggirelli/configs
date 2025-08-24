@@ -1,4 +1,6 @@
-# Rust
+---
+title: "First setup: rust"
+---
 
 - [ ] Install via `rustup`: [installation page](https://www.rust-lang.org/tools/install)
 

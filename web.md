@@ -1,4 +1,6 @@
-# Web development
+---
+title: "First setup: web development"
+---
 
 - [ ] Install `NodeJS` with `nvm` and `npm`: [download page](https://nodejs.org/en/download)
 

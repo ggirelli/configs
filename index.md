@@ -1,4 +1,6 @@
-# First setup
+---
+title: "First setup: Linux"
+---
 
 Here I included some checklists for Ubuntu first setups on new systems/builds:
 

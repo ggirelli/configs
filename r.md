@@ -1,4 +1,6 @@
-# R setup
+---
+title: "First setup: R"
+---
 
 First, install `r` if not already available:
 

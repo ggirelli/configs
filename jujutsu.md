@@ -1,4 +1,6 @@
-# Jujutsu
+---
+title: "First setup: jujutsu"
+---
 
 ## Basic config
 

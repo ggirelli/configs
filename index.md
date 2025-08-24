@@ -1,4 +1,6 @@
-# First setup
+---
+title: "First setup: Linux"
+---
 
 Here I included some checklists for Ubuntu first setups on new systems/builds:
 
@@ -6,6 +8,8 @@ Here I included some checklists for Ubuntu first setups on new systems/builds:
    - [21.10](ubuntu/21.10.md)
    - 22.04: see 21.10 (no issues found upon upgrade from 21.10).
    - [24.04](ubuntu/24.04.md)
+   - [25.04](ubuntu/25.04.md)
+     - Due to an issue with upgrading from encrypted ZFS I switched to LVM.
 2. VCSs
    1. [Git](git.md)
    2. [Jujutsu](jujutsu.md)

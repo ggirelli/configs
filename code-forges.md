@@ -1,4 +1,6 @@
-# Code forges
+---
+title: "First setup: code forges"
+---
 
 ## GitHub
 

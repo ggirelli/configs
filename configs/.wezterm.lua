@@ -16,22 +16,22 @@ config.keys = {
     },
     {
         key = 'LeftArrow',
-        mods = 'CTRL',
+        mods = 'LEADER',
         action = wezterm.action.AdjustPaneSize { 'Left', 1 }
     },
     {
         key = 'DownArrow',
-        mods = 'CTRL',
+        mods = 'LEADER',
         action = wezterm.action.AdjustPaneSize { 'Down', 1 }
     },
     {
         key = 'UpArrow',
-        mods = 'CTRL',
+        mods = 'LEADER',
         action = wezterm.action.AdjustPaneSize { 'Up', 1 }
     },
     {
         key = 'RightArrow',
-        mods = 'CTRL',
+        mods = 'LEADER',
         action = wezterm.action.AdjustPaneSize { 'Right', 1 }
     },
 }

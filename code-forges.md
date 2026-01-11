@@ -1,5 +1,6 @@
 ---
 title: "First setup: code forges"
+date: 2025-11-21
 ---
 
 ## GitHub

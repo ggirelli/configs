@@ -1,5 +1,6 @@
 ---
 title: "First setup: git"
+date: 2025-11-21
 ---
 
 - [ ] Setup global user.

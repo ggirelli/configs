@@ -1,5 +1,6 @@
 ---
 title: "First setup: Linux"
+date: 2025-11-21
 ---
 
 Over time, I have been trying to document how I setup my Linux machines.

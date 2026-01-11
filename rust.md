@@ -1,5 +1,6 @@
 ---
 title: "First setup: rust"
+date: 2025-11-21
 ---
 
 - [ ] Install via `rustup`: [installation page](https://www.rust-lang.org/tools/install)

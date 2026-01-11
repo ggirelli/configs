@@ -1,5 +1,6 @@
 ---
 title: "First setup: jujutsu"
+date: 2025-11-21
 ---
 
 ## Basic config

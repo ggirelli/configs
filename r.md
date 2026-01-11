@@ -1,5 +1,6 @@
 ---
 title: "First setup: R"
+date: 2025-11-21
 ---
 
 First, install `r` if not already available:

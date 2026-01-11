@@ -1,5 +1,6 @@
 ---
 title: "First setup: python"
+date: 2025-11-21
 ---
 
 ## `uv`
